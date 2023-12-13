@@ -4,13 +4,41 @@
       <org.nuxeo.gwt.diagrams.client.BoxModel>
         <type>InitialState</type>
         <text>Initial State</text>
-        <x>400.0</x>
-        <y>50.0</y>
-        <w>0.0</w>
-        <h>0.0</h>
+        <x>176.5</x>
+        <y>65.5</y>
+        <w>100.0</w>
+        <h>40.0</h>
         <properties/>
+        <id>7b5</id>
+      </org.nuxeo.gwt.diagrams.client.BoxModel>
+      <org.nuxeo.gwt.diagrams.client.BoxModel>
+        <type>State</type>
+        <text>Newstate</text>
+        <x>356.5</x>
+        <y>77.5</y>
+        <w>100.0</w>
+        <h>40.0</h>
+        <properties>
+          <entry>
+            <string>description</string>
+            <string>Newstate</string>
+          </entry>
+        </properties>
+        <id>7b6</id>
       </org.nuxeo.gwt.diagrams.client.BoxModel>
     </boxes>
-    <connectors/>
+    <connectors>
+      <org.nuxeo.gwt.diagrams.client.ConnectorModel>
+        <type>Connector</type>
+        <text>to_Newstate</text>
+        <x>316.5</x>
+        <y>91.5</y>
+        <w>-1.0</w>
+        <h>-1.0</h>
+        <properties/>
+        <from>7b5</from>
+        <to>7b6</to>
+      </org.nuxeo.gwt.diagrams.client.ConnectorModel>
+    </connectors>
   </data>
 </life-cycle>
