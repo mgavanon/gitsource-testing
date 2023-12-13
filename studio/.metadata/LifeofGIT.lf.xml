@@ -1,0 +1,16 @@
+<life-cycle id="LifeofGIT" version="1.2">
+  <data>
+    <boxes>
+      <org.nuxeo.gwt.diagrams.client.BoxModel>
+        <type>InitialState</type>
+        <text>Initial State</text>
+        <x>400.0</x>
+        <y>50.0</y>
+        <w>0.0</w>
+        <h>0.0</h>
+        <properties/>
+      </org.nuxeo.gwt.diagrams.client.BoxModel>
+    </boxes>
+    <connectors/>
+  </data>
+</life-cycle>
