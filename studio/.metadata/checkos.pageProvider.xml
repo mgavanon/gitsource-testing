@@ -1,0 +1,14 @@
+<pageProvider id="checkos" version="1.2">
+  <pageProviderModel>
+    <id>checkos</id>
+    <searchDocumentType>checkos_pp</searchDocumentType>
+    <fixedPart>ecm:mixinType != &apos;HiddenInNavigation&apos; AND ecm:isVersion = 0 AND ecm:isTrashed = 0</fixedPart>
+    <sortable>true</sortable>
+    <pageSize>10</pageSize>
+    <quotePatternParameters>true</quotePatternParameters>
+    <escapePatternParameters>true</escapePatternParameters>
+    <useElasticsearchIndex>true</useElasticsearchIndex>
+    <multiRepo>false</multiRepo>
+    <trackUsage>true</trackUsage>
+  </pageProviderModel>
+</pageProvider>
