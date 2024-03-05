@@ -21,7 +21,7 @@
         <properties>
           <entry>
             <string>description</string>
-            <string>Newstate</string>
+            <string>NewstateOldState</string>
           </entry>
         </properties>
         <id>7b6</id>
