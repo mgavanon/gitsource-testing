@@ -5,8 +5,8 @@
       <prefix>toto</prefix>
       <fields class="linked-hash-map"/>
     </schema>
-    <label>Toto</label>
-    <description></description>
+    <label>TotoZF</label>
+    <description>TOTOZF</description>
     <layouts>
       <simple-layout>
         <mode>create</mode>
