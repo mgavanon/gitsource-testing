@@ -1,0 +1,19 @@
+<document-schema id="ZFmarch" version="1.2">
+  <schema>
+    <id>ZFmarch</id>
+    <prefix>ZFmarch</prefix>
+    <fields class="linked-hash-map">
+      <entry>
+        <string>ZFapril</string>
+        <field>
+          <id>ZFapril</id>
+          <type>string</type>
+          <isMultiValue>false</isMultiValue>
+        </field>
+      </entry>
+    </fields>
+  </schema>
+  <mode>DEFAULT</mode>
+  <enableVCSPreChecks>true</enableVCSPreChecks>
+  <allowNestedComplexTypes>false</allowNestedComplexTypes>
+</document-schema>
