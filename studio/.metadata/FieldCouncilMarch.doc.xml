@@ -6,7 +6,7 @@
       <fields class="linked-hash-map"/>
     </schema>
     <label>FieldCouncilMarch</label>
-    <description></description>
+    <description>labelField</description>
     <layouts>
       <simple-layout>
         <mode>create</mode>
