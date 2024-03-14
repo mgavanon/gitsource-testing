@@ -1,0 +1,10 @@
+<document-schema id="Primeforce" version="1.2">
+  <schema>
+    <id>Primeforce</id>
+    <prefix>primeforce</prefix>
+    <fields class="linked-hash-map"/>
+  </schema>
+  <mode>DEFAULT</mode>
+  <enableVCSPreChecks>true</enableVCSPreChecks>
+  <allowNestedComplexTypes>false</allowNestedComplexTypes>
+</document-schema>
