@@ -1,0 +1,12 @@
+<facet id="Field" version="1.2">
+  <facet>
+    <id>Field</id>
+    <label></label>
+    <description></description>
+    <categories>
+      <string>document</string>
+    </categories>
+    <schemas/>
+    <deprecated>false</deprecated>
+  </facet>
+</facet>
