@@ -6,7 +6,7 @@
       <fields class="linked-hash-map"/>
     </schema>
     <label>AprilBirthdays</label>
-    <description>Adding a description</description>
+    <description>Adding AprilTea</description>
     <layouts>
       <simple-layout>
         <mode>create</mode>
