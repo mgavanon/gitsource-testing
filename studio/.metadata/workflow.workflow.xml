@@ -1,0 +1,82 @@
+<workflow id="workflow" version="1.2">
+  <model>
+    <id>workflow</id>
+    <label>workflow</label>
+    <description></description>
+    <variablesSchema>
+      <id>var_workflow</id>
+      <prefix>var_workflow</prefix>
+      <fields class="linked-hash-map"/>
+    </variablesSchema>
+    <graphModel>
+      <nodes>
+        <graphnode id="workflow-20240326112009060-start-node">
+          <title>Start</title>
+          <x>200</x>
+          <y>50</y>
+          <w>0</w>
+          <h>0</h>
+          <availableTransitions>
+            <entry>
+              <string>automatic_transition</string>
+              <graphtransition>
+                <id>automatic_transitionworkflow-20240326112009060-start-node</id>
+                <sourceId>workflow-20240326112009060-start-node</sourceId>
+                <sourceAnchor>0.5</sourceAnchor>
+                <targetId>workflow-20240326112009061-stop-node</targetId>
+                <name>automatic_transition</name>
+                <condition>true</condition>
+              </graphtransition>
+            </entry>
+          </availableTransitions>
+          <startNode>true</startNode>
+          <endNode>false</endNode>
+          <allowsIncomingConnections>false</allowsIncomingConnections>
+          <variablesSchema>
+            <id>var_workflow-20240326112009060-start-node</id>
+            <prefix>var_workflow-20240326112009060-start-node</prefix>
+            <fields class="linked-hash-map"/>
+          </variablesSchema>
+          <mergeNode>false</mergeNode>
+          <forkNode>false</forkNode>
+          <escalationRules/>
+        </graphnode>
+        <graphnode id="workflow-20240326112009061-stop-node">
+          <title>Stop</title>
+          <x>200</x>
+          <y>200</y>
+          <w>0</w>
+          <h>0</h>
+          <availableTransitions/>
+          <startNode>false</startNode>
+          <endNode>true</endNode>
+          <allowsIncomingConnections>true</allowsIncomingConnections>
+          <variablesSchema>
+            <id>var_workflow-20240326112009061-stop-node</id>
+            <prefix>var_workflow-20240326112009061-stop-node</prefix>
+            <fields class="linked-hash-map"/>
+          </variablesSchema>
+          <mergeNode>false</mergeNode>
+          <forkNode>false</forkNode>
+          <escalationRules/>
+        </graphnode>
+      </nodes>
+      <transitions>
+        <entry>
+          <string>automatic_transitionworkflow-20240326112009060-start-node</string>
+          <graphtransition reference="../../../nodes/graphnode/availableTransitions/entry/graphtransition"/>
+        </entry>
+      </transitions>
+    </graphModel>
+    <actionModel>
+      <label>workflow</label>
+      <order>0</order>
+      <immediate>false</immediate>
+      <rules>
+        <rules/>
+      </rules>
+    </actionModel>
+    <graphEditorX>1000</graphEditorX>
+    <graphEditorY>0</graphEditorY>
+  </model>
+</workflow>
