@@ -1,0 +1,18 @@
+<operation-chain id="AprilAuto" version="1.2">
+  <chain type="Default">
+    <doc></doc>
+    <inputParams/>
+    <operations>
+      <operation id="Collection.Create">
+        <params>
+          <param name="name" type="string">
+            <value>AprilAuto</value>
+          </param>
+          <param name="description" type="string">
+            <value></value>
+          </param>
+        </params>
+      </operation>
+    </operations>
+  </chain>
+</operation-chain>
