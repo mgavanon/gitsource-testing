@@ -1,0 +1,10 @@
+<document-schema id="AprilTea" version="1.2">
+  <schema>
+    <id>AprilTea</id>
+    <prefix>AprilTea</prefix>
+    <fields class="linked-hash-map"/>
+  </schema>
+  <mode>DEFAULT</mode>
+  <enableVCSPreChecks>true</enableVCSPreChecks>
+  <allowNestedComplexTypes>false</allowNestedComplexTypes>
+</document-schema>
